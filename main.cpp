@@ -1,5 +1,7 @@
-
-#include <cstdlib>  
+//Wilfrido Varela 2-10-2020
+//COSC 1436 Dr_T Unit 4 Assignment Part 1
+//What I did in this program are calculation and to accept input from the user while the value does not equal 1 
+#include <cstdlib>
 #include <iostream>  
 #include "Input_Validation_Extended.h" 
 #include<sstream> 
@@ -24,9 +26,7 @@ int main()
 
      cout << "(" << n << "+" << 3 << ")" << "/" << 5 << " = " << (n+3.0)/5.0 << endl;
 
-     cout << "[" << "(" << "(" << n << "+" << 3 << ")" << "/" << 5 << ")" << "+" << "(" << "(" << n << "+" << 7 << ")" << "/" << 2 << ")" << "]" << " = " << ((n+3.0)/5.0)+((n+7.0)/2.0) << endl; 
-
-    //can you write an if condition that prevents -1 from being calculated, exit without caculation? 
+     cout << "[" << "(" << "(" << n << "+" << 3 << ")" << "/" << 5 << ")" << "+" << "(" << "(" << n << "+" << 7 << ")" << "/" << 2 << ")" << "]" << " = " << ((n+3.0)/5.0)+((n+7.0)/2.0) << endl;  
    }
      counter++;  
      cout << "\nThis program ran " << counter;
